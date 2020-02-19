@@ -1,6 +1,6 @@
-def calculate_solution():
+def calculate_slices():
     print('more pizza!')
 
 
 if __name__ == '__main__':
-    calculate_solution()
+    calculate_slices()
