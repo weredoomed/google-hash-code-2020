@@ -87,7 +87,7 @@ def find_best_order(max_slices, pizza_list):
 def find_best_order(max_slices, pizza_list):
 
     best_order = []  # To store the best solution
-    current_order = []  # To store the current solutionn
+    current_order = []  # To store the current solution
 
     start_index = len(pizza_list) - 1
 
@@ -174,7 +174,7 @@ def find_best_order(max_slices, pizza_list):
 
     order_count = 0
 
-    # If first element of currentIndexList becomes 0 that means solution generating is finished
+    # If first element of current_order becomes 0 that means solution generating is finished
 
     while((len(current_order) > 0 and current_order[0].get('index', -1) != 0) or len(current_order) == 0):
 
